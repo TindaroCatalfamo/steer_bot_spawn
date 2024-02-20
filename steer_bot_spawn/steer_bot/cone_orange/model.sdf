@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sdf version="1.4">
+  <model name="cone_orange">
+    <link name="link">
+    <inertial>
+        <mass>0.1</mass> 
+        <inertia>
+          <ixx>1</ixx> 
+          <iyy>1</iyy> 
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://cone/cone_orange.dae</uri>
+     	      <scale>0.3 0.3 0.3</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://cone/cone_orange.dae</uri>
+            <scale>0.3 0.3 0.3</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
