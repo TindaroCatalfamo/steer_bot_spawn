@@ -13,3 +13,8 @@ Questo repository contiene il materiale relativo al progetto sperimentale svolto
 ## Informazioni aggiuntive
 
 Per qualsiasi ulteriore dettaglio sul progetto, è possibile consultare direttamente il documento della tesi allegato.
+
+##Tool principali usati
+- ROS (Robot Operating System)
+- Gazebo
+- Python
